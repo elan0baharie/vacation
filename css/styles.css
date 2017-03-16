@@ -1,0 +1,13 @@
+.banner {
+  display: block;
+  margin: auto;
+  height: 500px;
+}
+
+#guards {
+  width: 30%;
+}
+
+.lower {
+  width: 25%;
+}
