@@ -2,12 +2,66 @@
   display: block;
   margin: auto;
   height: 500px;
+  border-radius: 3%;
+  padding: 20px;
+  background-color: white;
+  border: 10px solid #cde7f0;
 }
 
 #guards {
-  width: 30%;
+  width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 3%;
+  padding: 20px;
+  background-color: white;
+  border: 10px solid #cde7f0;
 }
 
-.lower {
-  width: 25%;
+#bantu {
+  width: 40%;
+  float: right;
+  display: block;
+  position: relative;
+  bottom: 85px;
+  margin: 10px;
+  border-radius: 3%;
+  padding: 20px;
+  background-color: white;
+  border: 10px solid #cde7f0;
+}
+
+#planet {
+  width: 35%;
+  display: block;
+  margin: auto;
+  border-radius: 3%;
+  padding: 20px;
+  background-color: white;
+  border: 10px solid #cde7f0;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+  font-size: 14pt;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 16pt;
+}
+
+li {
+  font-size: 14pt;
+}
+
+.row {
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  border: 5px solid darkgrey;
 }
