@@ -4,40 +4,36 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Vacation to Hoth</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
         <h1>Travel Hoth-tours</h1>
-        <img class="banner" src="img/Hothscape.jpg" alt"Hoth hills and skyline">
-        <h2>Come see our icy wonderland (now with fewer Imperials!)</h2>
+        <img id="banner" src="img/Hothscape.jpg" alt"Hoth hills and skyline">
+        <h2>Come see our icy wonderland <em>(now with fewer Imperials!)</em></h2>
       </div>
       <div class="well">
         <p>When I say the name Hoth to you what do you think of? Well were not like that anymore! Now that the scars of battle have faded life has resumed with all its frozen glory. The Banta herds once more roam free and the people peacefully wander their chilly home. Our amenties are always improving. We offer excursions unlike anything you've seen before.</p>
       </div>
       <img id="guards" src="img/Hoth_guards.jpeg" alt="Guards">
-      <div class="panel-body">
-        <h3>These are only some of the attractions</h3>
+      <div class="well">
+      <img id="tauntan" src="img/Luke.jpg" alt="Luke on Bantaback">
+      <h3>These are some of the things people have been saying</h3>
         <ul>
-          <li>Frozen waterfall hiking</li>
-          <li>Tour historical battle-sites</li>
-          <li>Fly a snowspeeder</li>
+          <blockquote>
+            <li>"I never knew Hoth could be so hospitable!"</li>
+          </blockquote>
+          <blockquote>
+            <li>"Our bodies are frozen, but our hearts are warm!"</li>
+          </blockquote>
+          <blockquote>
+            <li>"You just have to fly a snowspeeder!"</li>
+          </blockquote>
         </ul>
       </div>
-      <img id="bantu" src="img/Luke.jpg" alt="Luke on Bantaback">
-      <h3>These are some of the things people have been saying</h3>
-      <ul>
-        <blockquote>
-          <li>"I never knew Hoth could be so hospitable!"</li>
-        </blockquote>
-        <blockquote>
-          <li>"Our bodies are frozen, but our hearts are warm!"</li>
-        </blockquote>
-        <blockquote>
-          <li>"You just have to fly a snowspeeder!"</li>
-        </blockquote>
-      </ul>
       <h3>Packages</h3>
       <div class="row">
         <div class="col-md-4 panel-info">
@@ -103,6 +99,19 @@
           </div>
         </div>
       </div>
+      <div class="panel">
+        <div class="panel-title">
+          <h3>These are only some of the attractions</h3>
+        </div>
+        <div class="panel-body">
+          <ul>
+            <li>Frozen waterfall hiking</li>
+            <li>Tour historical battle-sites</li>
+            <li>Fly a snowspeeder</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
       <img id="planet" src="img/Hothplanet.jpg" alt="Frozen planet">
     </div>
   </body>
